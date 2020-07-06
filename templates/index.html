@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello world</h1>
+    <script>
+        let loc  = window.location;
+        let wsStart = "ws://";
+        let endpoint = wsStart+loc.host+loc.pathname;
+        let socket  = new WebSocket(endpoint);
+        socket.onmessage = (e)=>{
+            console.log(e)
+        }
+        socket.onopen = (e)=>{
+            console.log(e)
+        }
+
+        socket.onerror = (e)=>{
+            console.log(e)
+        }
+
+        socket.onclose = (e)=>{
+            console.log(e)
+        }
+
+
+    </script>
+</body>
+</html>  

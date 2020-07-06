@@ -1,0 +1,150 @@
+orderID,clOrdID,clOrdLinkID,account,symbol,side,simpleOrderQty,orderQty,price,displayQty,stopPx,pegOffsetValue,pegPriceType,currency,settlCurrency,ordType,timeInForce,execInst,contingencyType,exDestination,ordStatus,triggered,workingIndicator,ordRejReason,simpleLeavesQty,leavesQty,simpleCumQty,cumQty,avgPx,multiLegReportingType,text,transactTime,timestamp
+bf5aac0f-e7da-cd9c-1cab-eca8df5c3f61,,,63908,XBTUSD,Sell,,13122,7617.5,,,,,USD,XBt,Market,ImmediateOrCancel,,,XBME,Filled,,False,,0,0,1.7226218,13122,7617.8868,SingleSecurity,Submitted via API.,2018-06-07T20:47:32.428Z,2018-06-07T20:47:32.428Z
+bc25354c-cd6c-ed86-6d18-32d2f28d9ea2,,,63908,XBTUSD,Buy,,13122,7643.0,,,,,USD,XBt,Market,ImmediateOrCancel,Close,,XBME,Filled,,False,,0,0,1.72265616,13122,7640.5868,SingleSecurity,Submitted via API.,2018-06-07T21:00:12.099Z,2018-06-07T21:00:12.099Z
+453e94f3-876f-335c-4ad5-520ac101a58f,,,63908,XBTUSD,Sell,,12937,7632.5,,,,,USD,XBt,Market,ImmediateOrCancel,,,XBME,Filled,,False,,0,0,1.6948690000000002,12937,7633.5878,SingleSecurity,Submitted via API.,2018-06-07T21:00:20.959Z,2018-06-07T21:00:20.959Z
+63a8ab72-e5c2-8bb1-cfb3-b242370029df,,,63908,XBTUSD,Buy,,11875,7644.0,,,,,USD,XBt,Market,ImmediateOrCancel,,,XBME,Filled,,False,,0,0,1.55574375,11875,7644.0,SingleSecurity,Submitted via API.,2018-06-08T08:00:18.144Z,2018-06-08T08:00:18.144Z
+4cbdee82-742b-26de-3e80-71c74f13a9da,,,63908,XBTUSD,Buy,,1062,7594.5,,,,,USD,XBt,Limit,GoodTillCancel,Close,,XBME,Filled,,False,,0,0,0.13913262,1062,7595.0,SingleSecurity,"Amended orderQty: Order had execInst of Close or ReduceOnly but open buy orders exceed current position of -12937
+Position Close from testnet.bitmex.com",2018-06-08T05:45:27.206Z,2018-06-08T13:13:00.989Z
+0efbdd3b-2862-60e5-74e1-2436354728f6,,,63908,XBTUSD,Buy,,12775,7621.5,,,,,USD,XBt,Market,ImmediateOrCancel,,,XBME,Filled,,False,,0,0,1.67628048,12775,7621.3703,SingleSecurity,Submitted via API.,2018-06-08T14:00:22.453Z,2018-06-08T14:00:22.453Z
+74361ff8-06d6-2e5f-d494-d57508b50e5a,,,63908,XBTUSD,Buy,,10684,7632.0,,,,,USD,XBt,Market,ImmediateOrCancel,,,XBME,Filled,,False,,0,0,1.39992452,10684,7632.0,SingleSecurity,Submitted via API.,2018-06-08T14:39:21.598Z,2018-06-08T14:39:21.598Z
+c15830fe-6cb4-1a77-2002-0d098e9b8549,,,63908,XBTUSD,Buy,,10684,7632.0,,,,,USD,XBt,Market,ImmediateOrCancel,,,XBME,Filled,,False,,0,0,1.39992452,10684,7632.0,SingleSecurity,Submitted via API.,2018-06-08T14:39:21.606Z,2018-06-08T14:39:21.606Z
+3331965d-688b-29d4-030e-9b493a5941d8,,,63908,XBTUSD,Sell,,34143,7646.0,,,,,USD,XBt,Limit,GoodTillCancel,Close,,XBME,Filled,,False,,0,0,4.47580587,34143,7660.4872,SingleSecurity,Position Close from testnet.bitmex.com,2018-06-08T18:27:45.364Z,2018-06-08T18:27:45.364Z
+ba526056-96c3-fcc0-9839-151838c57a1d,,,63908,XBTUSD,Buy,,13197,7671.0,,7747,,,USD,XBt,LimitIfTouched,GoodTillCancel,,,XBME,Filled,StopOrderTriggered,False,,0,0,1.72036092,13197,7671.0,SingleSecurity,"Triggered: Order stop price reached
+Submitted via API.",2018-06-09T11:59:32.018Z,2018-06-09T12:04:39.479Z
+6a28f424-b2de-429b-b94e-eae2fa6c8e09,,,63908,XBTUSD,Sell,,13197,7633.0,,,,,USD,XBt,Limit,GoodTillCancel,Close,,XBME,Filled,,False,,0,0,1.72036092,13197,7642.3386,SingleSecurity,Position Close from testnet.bitmex.com,2018-06-09T15:47:48.392Z,2018-06-09T15:47:48.392Z
+d6025429-c99d-f53b-9745-cd7e8634e773,,,63908,XBTUSD,Sell,,13174,7657.5,,7733.5,,,USD,XBt,LimitIfTouched,GoodTillCancel,,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Cancel from testnet.bitmex.com
+Submitted via API.",2018-06-08T20:00:21.714Z,2018-06-10T18:44:07.806Z
+ccedd334-332b-aa85-40b3-8690dd8f5cf2,,,63908,XBTUSD,Sell,,13174,7657.5,,7733.5,,,USD,XBt,LimitIfTouched,GoodTillCancel,,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Cancel from testnet.bitmex.com
+Submitted via API.",2018-06-08T20:00:20.149Z,2018-06-10T18:44:08.140Z
+48224345-988c-a788-ea88-9123bdeb8f73,,,63908,XBTUSD,Sell,,57395,6799.5,,6841.5,,,USD,XBt,MarketIfTouched,ImmediateOrCancel,,,XBME,Filled,StopOrderTriggered,False,,0,0,8.44107464,57395,6799.9456,SingleSecurity,"Triggered: Order stop price reached
+Submitted via API.",2018-06-12T00:00:15.124Z,2018-06-12T00:00:15.124Z
+49810855-da6e-2698-a263-8df7128da82e,,,63908,XBTUSD,Sell,,57421,6798.5,,6844.5,,,USD,XBt,MarketIfTouched,ImmediateOrCancel,,,XBME,Rejected,StopOrderTriggered,False,"Account has insufficient Available Balance, 35076467 XBt required",0,0,0.0,0,,SingleSecurity,"Rejected: Account has insufficient Available Balance, 35076467 XBt required
+Submitted via API.",2018-06-12T00:00:17.059Z,2018-06-12T00:00:17.059Z
+094c031f-b657-1092-c241-0efab7b022c2,,,63908,XBTUSD,Buy,,57395,6796.5,,,,,USD,XBt,Market,ImmediateOrCancel,Close,,XBME,Filled,,False,,0,0,8.44108265,57395,6796.2485,SingleSecurity,Submitted via API.,2018-06-12T12:51:45.347Z,2018-06-12T12:51:45.347Z
+b40bc61b-5bef-3f3c-a6b1-82359d294e34,,,63908,XBTUSD,Buy,,53203,6795.0,,6827.5,,,USD,XBt,MarketIfTouched,ImmediateOrCancel,,,XBME,Filled,StopOrderTriggered,False,,0,0,7.8387295,53203,6787.4839,SingleSecurity,"Triggered: Order stop price reached
+Submitted via API.",2018-06-12T12:51:54.026Z,2018-06-12T12:51:54.026Z
+98fe06c8-a234-e36c-8d04-f0c98508dc10,,,63908,XBTUSD,Buy,,2531,6440.0,,,,,USD,XBt,Market,ImmediateOrCancel,,,XBME,Filled,,False,,0,0,0.39301368,2531,6440,SingleSecurity,Submitted via API.,2018-06-14T03:52:38.186Z,2018-06-14T03:52:38.186Z
+12d0be9d-4725-c5d5-5649-c8d61d799e10,,,63908,XBTUSD,Buy,,2152,6440.0,,,,,USD,XBt,Market,ImmediateOrCancel,,,XBME,Filled,,False,,0,0,0.33416256,2152,6440,SingleSecurity,Submitted via API.,2018-06-14T03:52:39.081Z,2018-06-14T03:52:39.081Z
+4525a332-8fad-5ff3-ec60-875e6b01a83e,,,63908,XBTUSD,Sell,,4683,6409.5,,,,,USD,XBt,Market,ImmediateOrCancel,Close,,XBME,Filled,,False,,0,0,0.72717624,4683,6409.8455,SingleSecurity,Submitted via API.,2018-06-14T15:29:49.112Z,2018-06-14T15:29:49.112Z
+e565a681-3d94-9c06-0c1d-1fbf778471d7,,,63908,XBTUSD,Sell,,4683,,,,,,USD,XBt,Market,ImmediateOrCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Order had execInst of Close or ReduceOnly and side of Sell but current position is 0
+Submitted via API.",2018-06-14T15:29:49.532Z,2018-06-14T15:29:49.532Z
+65cf3255-1b70-3b70-66a3-4268aa126122,,,63908,XBTUSD,Sell,,2508,6405.5,,,,,USD,XBt,Market,ImmediateOrCancel,,,XBME,Filled,,False,,0,0,0.39146351999999995,2508,6406.9708,SingleSecurity,Submitted via API.,2018-06-14T15:29:57.041Z,2018-06-14T15:29:57.041Z
+e7718699-14ce-157c-88fd-370b19a38ecf,,,63908,XBTUSD,Sell,,2508,6405.5,,,,,USD,XBt,Market,ImmediateOrCancel,,,XBME,Filled,,False,,0,0,0.39154896,2508,6405.5,SingleSecurity,Submitted via API.,2018-06-14T15:29:57.634Z,2018-06-14T15:29:57.634Z
+816fd200-e74f-1299-d040-d8e8f236f056,,,63908,XBTUSD,Buy,,5016,6397.5,,,,,USD,XBt,Market,ImmediateOrCancel,Close,,XBME,Filled,,False,,0,0,0.78304776,5016,6397.5,SingleSecurity,Submitted via API.,2018-06-14T16:49:57.187Z,2018-06-14T16:49:57.187Z
+0e9b1b36-f04b-3d7a-9685-8a91bbd78e96,,,63908,XBTUSD,Buy,,2501,6397.5,,,,,USD,XBt,Market,ImmediateOrCancel,,,XBME,Filled,,False,,0,0,0.39093131,2501,6397.5,SingleSecurity,Submitted via API.,2018-06-14T16:50:06.087Z,2018-06-14T16:50:06.087Z
+1e653b55-a9f4-ec63-95c6-e0ebc20f3df7,,,63908,XBTUSD,Buy,,2501,6397.5,,,,,USD,XBt,Market,ImmediateOrCancel,,,XBME,Filled,,False,,0,0,0.39093131,2501,6397.5,SingleSecurity,Submitted via API.,2018-06-14T16:50:06.433Z,2018-06-14T16:50:06.433Z
+02ac4694-357a-6f97-cedd-2be0f0c50f77,,,63908,XBTUSD,Buy,,10,6106.5,,,,,USD,XBt,Market,ImmediateOrCancel,,,XBME,Filled,,False,,0,0,0.0016376,10,6106.5,SingleSecurity,Submission from testnet.bitmex.com,2018-06-27T21:11:30.293Z,2018-06-27T21:11:30.293Z
+aa45b69f-9a61-4038-42af-586c6eebd30f,,,63908,XBTUSD,Buy,,10,6108.5,,6108.5,2,TrailingStopPeg,USD,XBt,Stop,ImmediateOrCancel,LastPrice,,XBME,Filled,StopOrderTriggered,False,,0,0,0.0016371,10,6108.5,SingleSecurity,"Triggered: Order stop price reached
+Submission from testnet.bitmex.com",2018-06-27T21:14:53.087Z,2018-06-27T21:14:53.087Z
+75dbf56f-d39c-f8bd-36f0-dfa9f2ffa087,,,63908,XBTUSD,Buy,,10,6106,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.0016377,10,6106,SingleSecurity,Submission from testnet.bitmex.com,2018-06-27T21:10:49.818Z,2018-06-27T21:18:14.324Z
+f2593ec3-c85b-847d-3477-47297591ed24,,,63908,XBTUSD,Buy,,10,6135,,6126.5,20,TrailingStopPeg,USD,XBt,Stop,ImmediateOrCancel,LastPrice,,XBME,Filled,StopOrderTriggered,False,,0,0,0.00163,10,6135,SingleSecurity,"Triggered: Order stop price reached
+Submission from testnet.bitmex.com",2018-06-27T23:08:15.921Z,2018-06-27T23:08:15.921Z
+4ab5ab05-57f5-ecfa-faa6-fead82cdb9ca,,,63908,XBTUSD,Sell,,40,6318,,,,,USD,XBt,Limit,GoodTillCancel,Close,,XBME,Filled,,False,,0,0,0.0065424,40,6318,SingleSecurity,Position Close from testnet.bitmex.com,2018-06-30T23:45:43.033Z,2018-06-30T23:45:43.033Z
+c35897ba-4345-4897-510f-c9f55602c734,,,63908,XBTUSD,Sell,,240,6369,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.0376824,240,6369,SingleSecurity,Submitted via API.,2018-07-01T00:30:06.891Z,2018-07-01T01:52:59.131Z
+8365584c-b3b3-66d2-d135-e6d6ab2805fb,,,63908,XBTUSD,Sell,,240,6369,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.0376824,240,6369,SingleSecurity,Submitted via API.,2018-07-01T00:30:07.506Z,2018-07-01T01:52:59.131Z
+1038bcd2-af19-faa8-16f0-6a65ed11cc97,,,63908,XBTUSD,Buy,,480,6352.5,,,,,USD,XBt,Limit,GoodTillCancel,Close,,XBME,Filled,,False,,0,0,0.07536480000000001,480,6351.5,SingleSecurity,Submitted via API.,2018-07-01T02:00:07.018Z,2018-07-01T02:00:07.018Z
+2dba90c5-ae95-0a85-828d-8ca0bced78e4,,,63908,XBTUSD,Buy,,240,6352,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.0377856,240,6351.5,SingleSecurity,Submitted via API.,2018-07-01T02:00:09.671Z,2018-07-01T02:00:09.671Z
+f608939a-cb34-9252-e603-1455602ac853,,,63908,XBTUSD,Buy,,240,6352,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.0377856,240,6351.5,SingleSecurity,Submitted via API.,2018-07-01T02:00:10.154Z,2018-07-01T02:00:10.154Z
+6f67d003-cbe6-20cc-d8bd-46bbe3a2dba2,,,63908,XBTUSD,Sell,,480,6351.5,,6364,,,USD,XBt,LimitIfTouched,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T02:00:15.350Z,2018-07-01T02:30:03.176Z
+9fe743f8-d3f7-049d-8d63-af3221ee5a92,,,63908,XBTUSD,Sell,,480,6351.5,,6364,,,USD,XBt,LimitIfTouched,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T02:00:15.855Z,2018-07-01T02:30:03.365Z
+75052b0e-6fbc-eb7c-2f3e-6174717c4092,,,63908,XBTUSD,Sell,,480,6311.5,,6311.5,,,USD,XBt,StopLimit,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T02:00:20.912Z,2018-07-01T02:30:03.561Z
+ef10eb37-43cc-3b69-962b-be78fada4aa1,,,63908,XBTUSD,Sell,,480,6311.5,,6311.5,,,USD,XBt,StopLimit,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T02:00:21.616Z,2018-07-01T02:30:03.755Z
+f1b1debb-8089-882b-df28-c2c474e520ec,,,63908,XBTUSD,Sell,,480,6365,,,,,USD,XBt,Limit,GoodTillCancel,Close,,XBME,Filled,,False,,0,0,0.0755712,480,6366,SingleSecurity,Submitted via API.,2018-07-01T02:30:06.358Z,2018-07-01T02:30:06.358Z
+5eda146b-5c1a-409c-baa0-a7525d1da32e,,,63908,XBTUSD,Buy,,209,6356,,6343.5,,,USD,XBt,LimitIfTouched,GoodTillCancel,Close,,XBME,Filled,StopOrderTriggered,False,,0,0,0.03287988,209,6356,SingleSecurity,"Triggered: Order stop price reached
+Submitted via API.",2018-07-01T02:30:16.652Z,2018-07-01T02:30:16.652Z
+f1df528c-b2e9-9315-21f1-73d87fa05683,,,63908,XBTUSD,Buy,,209,6356,,6343.5,,,USD,XBt,LimitIfTouched,GoodTillCancel,Close,,XBME,Canceled,StopOrderTriggered,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Order had execInst of Close or ReduceOnly but open buy orders exceed current position of -209
+Submitted via API.",2018-07-01T02:30:16.652Z,2018-07-01T02:30:16.652Z
+9f2a28e8-a509-cd1c-452d-0ba33606c21f,,,63908,XBTUSD,Sell,,240,6356.5,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.03775536,240,6356.875,SingleSecurity,Submitted via API.,2018-07-01T02:30:09.355Z,2018-07-01T02:30:53.870Z
+445ab9e4-810f-0406-1b37-aa38b29e1fe1,,,63908,XBTUSD,Sell,,235,6304,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.037271,235,6305,SingleSecurity,Submitted via API.,2018-07-01T02:45:08.418Z,2018-07-01T02:45:08.418Z
+4b64c07d-e0dd-221d-8bb1-e25960ba210e,,,63908,XBTUSD,Sell,,235,6304,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.037271,235,6305,SingleSecurity,Submitted via API.,2018-07-01T02:45:08.491Z,2018-07-01T02:45:08.491Z
+74fb1b64-6577-8dbf-a032-4d19cbb2a31c,,,63908,XBTUSD,Buy,,501,6307.5,,6295,,,USD,XBt,LimitIfTouched,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T02:45:14.105Z,2018-07-01T03:00:01.730Z
+74d162ab-343b-c26f-c7f1-3f577208e277,,,63908,XBTUSD,Buy,,501,6307.5,,6295,,,USD,XBt,LimitIfTouched,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T02:45:14.120Z,2018-07-01T03:00:01.947Z
+abb2f051-88d8-effe-920b-3f2e19c5a6f7,,,63908,XBTUSD,Buy,,501,6367.5,,6367.5,,,USD,XBt,StopLimit,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T02:45:19.704Z,2018-07-01T03:00:02.174Z
+98eff4d4-577d-8501-fe36-aee7cdc539e7,,,63908,XBTUSD,Buy,,501,6367.5,,6367.5,,,USD,XBt,StopLimit,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T02:45:19.814Z,2018-07-01T03:00:02.628Z
+0b2a4992-a037-1c19-8c2d-015f07939395,,,63908,XBTUSD,Buy,,501,6342,,,,,USD,XBt,Limit,GoodTillCancel,Close,,XBME,Filled,,False,,0,0,0.07942353,501,6341,SingleSecurity,Submitted via API.,2018-07-01T03:00:05.390Z,2018-07-01T03:00:05.390Z
+b2715e8d-e05f-fb52-3a55-b2887598d15f,,,63908,XBTUSD,Buy,,238,6341.5,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.03754271000000001,238,6339.5461,SingleSecurity,Submitted via API.,2018-07-01T03:00:08.016Z,2018-07-01T03:00:08.016Z
+2fe818ee-f39c-3335-b5bd-3a08abf1cd1d,,,63908,XBTUSD,Buy,,238,6341.5,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.037532920000000004,238,6341.1541,SingleSecurity,Submitted via API.,2018-07-01T03:00:08.150Z,2018-07-01T03:00:08.150Z
+a68609a6-cab2-7738-1b40-78768b9b1237,,,63908,XBTUSD,Sell,,476,6340,,6353,,,USD,XBt,LimitIfTouched,GoodTillCancel,Close,,XBME,Canceled,StopOrderTriggered,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Order had execInst of Close or ReduceOnly but open sell orders exceed current position of 476
+Submitted via API.",2018-07-01T03:26:51.630Z,2018-07-01T03:26:51.630Z
+23319e59-1024-010d-7fb2-f717978ba5cb,,,63908,XBTUSD,Sell,,476,6340,,6353,,,USD,XBt,LimitIfTouched,GoodTillCancel,Close,,XBME,Canceled,StopOrderTriggered,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Order had execInst of Close or ReduceOnly but open sell orders exceed current position of 476
+Submitted via API.",2018-07-01T03:26:51.630Z,2018-07-01T03:51:09.356Z
+2e5b0baa-5044-c14a-0b52-159933b8c8c3,,,63908,XBTUSD,Sell,,476,6318.5,,,,,USD,XBt,Market,ImmediateOrCancel,Close,,XBME,Filled,,False,,0,0,0.07507472,476,6318.5,SingleSecurity,Position Close from testnet.bitmex.com,2018-07-01T03:51:09.356Z,2018-07-01T03:51:09.356Z
+0ce01905-5c7e-1b85-49e2-f3ca84cfc038,,,63908,XBTUSD,Sell,,476,6300,,6300,,,USD,XBt,StopLimit,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Cancel All from testnet.bitmex.com
+Submitted via API.",2018-07-01T03:00:19.238Z,2018-07-01T03:51:31.381Z
+1f01d03c-b1e2-1009-9e3d-ded9a3b32a41,,,63908,XBTUSD,Sell,,476,6300,,6300,,,USD,XBt,StopLimit,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Cancel All from testnet.bitmex.com
+Submitted via API.",2018-07-01T03:00:19.610Z,2018-07-01T03:51:31.381Z
+c4dfcfe4-7ba1-6fb8-e555-9996eaa1cb3c,,,63908,XBTUSD,Sell,,4580,6318.5,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.724785,4580,6319,SingleSecurity,Submitted via API.,2018-07-01T04:00:19.291Z,2018-07-01T04:00:19.291Z
+c0ffaefa-db9f-39f1-ae1c-c98d48b684bf,,,63908,XBTUSD,Sell,,4580,6318.5,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.72479478,4580,6319.1153,SingleSecurity,Submitted via API.,2018-07-01T04:00:19.574Z,2018-07-01T04:00:43.032Z
+92ac1677-c4fa-1f83-a524-e47a70d67bf1,,,63908,XBTUSD,Buy,,8852,6318.5,,6306,,,USD,XBt,LimitIfTouched,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T04:00:24.990Z,2018-07-01T04:45:03.454Z
+625def3d-0d0c-29f9-b66b-c0642f704ddf,,,63908,XBTUSD,Buy,,8852,6318.5,,6306,,,USD,XBt,LimitIfTouched,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T04:00:26.657Z,2018-07-01T04:45:03.661Z
+1187a942-341b-24b5-59dd-5eb14889bc05,,,63908,XBTUSD,Buy,,8852,6378.5,,6378.5,,,USD,XBt,StopLimit,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T04:00:30.718Z,2018-07-01T04:45:04.255Z
+39a98198-e2b5-cb60-1ad1-4a3914a6f455,,,63908,XBTUSD,Buy,,8852,6378.5,,6378.5,,,USD,XBt,StopLimit,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T04:00:32.302Z,2018-07-01T04:45:04.485Z
+97adb88f-82b4-3ecb-4d24-808da497267c,,,63908,XBTUSD,Buy,,9160,6296,,,,,USD,XBt,Limit,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,1.0060588199999998,6357,6295.2471,SingleSecurity,"Canceled: Order had execInst of Close or ReduceOnly but open buy orders exceed current position of -2803
+Submitted via API.",2018-07-01T04:45:07.476Z,2018-07-01T04:45:10.169Z
+7e43626c-56bd-2296-69c1-15f1d05a4d06,,,63908,XBTUSD,Buy,,3577,6297,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.5660960199999999,3577,6297,SingleSecurity,Submitted via API.,2018-07-01T04:45:10.169Z,2018-07-01T04:45:33.350Z
+8d876299-cb0d-0120-abf6-ef0639db155a,,,63908,XBTUSD,Buy,,3577,6297,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.56609602,3577,6297,SingleSecurity,Submitted via API.,2018-07-01T04:45:10.184Z,2018-07-01T04:45:33.350Z
+c221555b-d6da-90a2-25f0-95e0aa65d048,,,63908,XBTUSD,Sell,,4351,6298.5,,,,,USD,XBt,Limit,GoodTillCancel,Close,,XBME,Filled,,False,,0,0,0.69098231,4351,6298.8158,SingleSecurity,Submitted via API.,2018-07-01T05:00:06.693Z,2018-07-01T05:00:06.693Z
+5eaed49b-a946-29a2-b47a-b8eaa8a3f120,,,63908,XBTUSD,Sell,,247,6298,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.03921619,247,6298.5,SingleSecurity,Submitted via API.,2018-07-01T05:00:09.576Z,2018-07-01T05:00:09.576Z
+8dd9372a-c89e-6455-408a-d45d9cdf1fec,,,63908,XBTUSD,Sell,,247,6298,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.03921619,247,6298.5,SingleSecurity,Submitted via API.,2018-07-01T05:00:10.140Z,2018-07-01T05:00:10.140Z
+905b1c18-6f1b-192f-d605-db6e695e64c2,,,63908,XBTUSD,Buy,,494,6338.5,,6338.5,,,USD,XBt,StopLimit,GoodTillCancel,Close,,XBME,Filled,StopOrderTriggered,False,,0,0,0.07843238,494,6312,SingleSecurity,"Triggered: Order stop price reached
+Submitted via API.",2018-07-01T05:29:56.672Z,2018-07-01T05:29:56.672Z
+96bb64e3-9eaf-2d84-e548-ba06cc95daac,,,63908,XBTUSD,Buy,,494,6338.5,,6338.5,,,USD,XBt,StopLimit,GoodTillCancel,Close,,XBME,Canceled,StopOrderTriggered,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Order had execInst of Close or ReduceOnly but open buy orders exceed current position of -494
+Submitted via API.",2018-07-01T05:29:56.672Z,2018-07-01T05:29:56.672Z
+894f91bb-d75d-1083-0833-5e2b463c7df3,,,63908,XBTUSD,Buy,,494,6298.5,,6282.5,,,USD,XBt,LimitIfTouched,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T05:00:15.642Z,2018-07-01T05:45:06.724Z
+94be0d2e-3833-ff88-d885-91ba91f1c062,,,63908,XBTUSD,Buy,,494,6298.5,,6282.5,,,USD,XBt,LimitIfTouched,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T05:00:16.126Z,2018-07-01T05:45:06.933Z
+df0faa70-b4f3-a3e8-9b64-685a5f15e317,,,63908,XBTUSD,Sell,,4778,6314,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.75671902,4778,6314.3272,SingleSecurity,Submitted via API.,2018-07-01T05:45:12.518Z,2018-07-01T05:46:00.852Z
+014a626c-cc94-670e-135c-6315ce20bb7d,,,63908,XBTUSD,Buy,,2388,6373.5,,6373.5,,,USD,XBt,StopLimit,GoodTillCancel,Close,,XBME,Filled,StopOrderTriggered,False,,0,0,0.37821144,2388,6350,SingleSecurity,"Triggered: Order stop price reached
+Submitted via API.",2018-07-01T05:48:16.762Z,2018-07-01T05:48:16.762Z
+297ca83d-1804-ac50-9af9-54f93f1df5b0,,,63908,XBTUSD,Buy,,2388,6313.5,,6301,,,USD,XBt,LimitIfTouched,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T05:45:18.223Z,2018-07-01T06:47:08.771Z
+f3523d90-387c-0309-4838-99b39e68d6be,,,63908,XBTUSD,Sell,,3696,6339.5,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.58297008,3696,6340,SingleSecurity,Submitted via API.,2018-07-01T06:47:13.742Z,2018-07-01T06:47:13.742Z
+0c828217-73f2-3b01-a759-76bec7f0177f,,,63908,XBTUSD,Buy,,6086,6329.5,,6316.5,,,USD,XBt,LimitIfTouched,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T06:47:19.407Z,2018-07-01T07:00:01.886Z
+b2d2a468-eb89-2939-4e95-d8bc4122d614,,,63908,XBTUSD,Buy,,6086,6389.5,,6389.5,,,USD,XBt,StopLimit,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T06:47:25.523Z,2018-07-01T07:00:02.155Z
+9e28fa83-a6ee-1be0-0703-8565bc1df8f1,,,63908,XBTUSD,Buy,,6086,6329.5,,6313.5,,,USD,XBt,LimitIfTouched,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T07:00:08.171Z,2018-07-01T07:30:02.225Z
+85a72bc1-6fc9-56f0-b27a-3d60f33a9850,,,63908,XBTUSD,Buy,,6086,6369.5,,6369.5,,,USD,XBt,StopLimit,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T07:00:14.715Z,2018-07-01T07:30:02.448Z
+8020470b-2552-08f5-7dd2-a4069f0b7d83,,,63908,XBTUSD,Sell,,114,6310.5,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.0180633,114,6311,SingleSecurity,Submitted via API.,2018-07-01T07:30:07.818Z,2018-07-01T07:30:07.818Z
+b9bece21-2975-ace8-3207-9d41ce0ba5bc,,,63908,XBTUSD,Buy,,6200,6329,,6313,,,USD,XBt,LimitIfTouched,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T07:30:13.502Z,2018-07-01T07:45:03.929Z
+71921f1f-eaea-d59e-588d-eb06057cfc5f,,,63908,XBTUSD,Buy,,6200,6369,,6369,,,USD,XBt,StopLimit,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T07:30:19.593Z,2018-07-01T07:45:04.217Z
+5103316d-e460-1a5e-29a0-42766c5d27d6,,,63908,XBTUSD,Buy,,6200,6330,,,,,USD,XBt,Limit,GoodTillCancel,Close,,XBME,Filled,,False,,0,0,0.9796,6200,6329.9152,SingleSecurity,Submitted via API.,2018-07-01T07:45:06.862Z,2018-07-01T07:45:06.862Z
+b5455905-9b58-3dbf-9525-09c3e694917a,,,63908,XBTUSD,Buy,,4556,6330.5,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.71975688,4556,6330,SingleSecurity,Submitted via API.,2018-07-01T07:45:09.814Z,2018-07-01T07:45:09.814Z
+c1e01680-4c1a-e206-7b3d-f33aa9df8de1,,,63908,XBTUSD,Sell,,4556,6330,,6342.5,,,USD,XBt,LimitIfTouched,GoodTillCancel,Close,,XBME,Filled,StopOrderTriggered,False,,0,0,0.71975688,4556,6330,SingleSecurity,"Triggered: Order stop price reached
+Submitted via API.",2018-07-01T07:45:16.688Z,2018-07-01T07:49:27.722Z
+18aef7a6-2539-82ac-6129-813f028439fd,,,63908,XBTUSD,Buy,,4539,6337,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.7163449799999999,4539,6336.5,SingleSecurity,Submitted via API.,2018-07-01T08:45:09.597Z,2018-07-01T08:45:09.597Z
+d9b365b1-06b6-8c13-45b7-7e288e55b586,,,63908,XBTUSD,Sell,,4539,6336.5,,6349,,,USD,XBt,LimitIfTouched,GoodTillCancel,Close,,XBME,Filled,StopOrderTriggered,False,,0,0,0.71634498,4539,6336.5,SingleSecurity,"Triggered: Order stop price reached
+Submitted via API.",2018-07-01T08:45:16.041Z,2018-07-01T08:45:59.053Z
+8b28075f-bfce-091c-d2e0-4cc568e6fcbb,,,63908,XBTUSD,Sell,,4518,6337.5,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.71281465,4518,6338.3406,SingleSecurity,Submitted via API.,2018-07-01T09:30:07.967Z,2018-07-01T09:30:07.967Z
+a8d305bc-661b-c50c-02ae-dd7626f4d917,,,63908,XBTUSD,Buy,,4518,6337.5,,6325,,,USD,XBt,LimitIfTouched,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T09:30:13.679Z,2018-07-01T09:31:34.723Z
+a0aa78a6-d044-6113-dd8f-b1e0f67587c3,,,63908,XBTUSD,Buy,,4518,6397.5,,6397.5,,,USD,XBt,StopLimit,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T09:30:19.333Z,2018-07-01T09:31:34.952Z
+f4769d3f-0e0c-fcc5-0cb9-3e180f1f1d41,,,63908,XBTUSD,Buy,,4518,6337.5,,6322,,,USD,XBt,LimitIfTouched,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T09:31:40.997Z,2018-07-01T10:45:03.285Z
+9ab8478a-c5db-41d4-43be-a9ec4c030c99,,,63908,XBTUSD,Buy,,4518,6377.5,,6377.5,,,USD,XBt,StopLimit,GoodTillCancel,Close,,XBME,Canceled,,False,,0,0,0.0,0,,SingleSecurity,"Canceled: Canceled via API.
+Submitted via API.",2018-07-01T09:31:46.687Z,2018-07-01T10:45:03.564Z
+bcd0f154-71be-9297-a4a2-cc7a8edf2c73,,,63908,XBTUSD,Buy,,4518,6327,,,,,USD,XBt,Limit,GoodTillCancel,Close,,XBME,Filled,,False,,0,0,0.7128500400000001,4518,6326,SingleSecurity,Submitted via API.,2018-07-01T10:45:06.696Z,2018-07-01T10:45:06.696Z
+578b14bd-7d77-e313-55ab-c44261e99cad,,,63908,XBTUSD,Buy,,4529,6326.5,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.71594432,4529,6326,SingleSecurity,Submitted via API.,2018-07-01T10:45:09.682Z,2018-07-01T10:45:09.682Z
+13fb26c0-eeaa-5d37-55c3-897182776cc0,,,63908,XBTUSD,Sell,,4529,6326,,6338.5,,,USD,XBt,LimitIfTouched,GoodTillCancel,Close,,XBME,Filled,StopOrderTriggered,False,,0,0,0.71594432,4529,6326,SingleSecurity,"Triggered: Order stop price reached
+Submitted via API.",2018-07-01T10:45:16.200Z,2018-07-01T10:46:10.511Z
+58f79cd8-d289-10c9-8fc1-c0f18abc2b99,,,63908,XBTUSD,Sell,,232,6320.5,,,,,USD,XBt,Limit,GoodTillCancel,,,XBME,Filled,,False,,0,0,0.03668062,232,6325.1107,SingleSecurity,Submitted via API.,2018-07-01T11:00:08.562Z,2018-07-01T11:00:08.562Z
+c5c00315-a849-c76b-7229-7930db336d2e,,,63908,XBTUSD,Buy,,232,6364.5,,6364.5,,,USD,XBt,StopLimit,GoodTillCancel,Close,,XBME,Filled,StopOrderTriggered,False,,0,0,0.03668152,232,6363.5,SingleSecurity,"Triggered: Order stop price reached
+Submitted via API.",2018-07-01T11:06:11.701Z,2018-07-01T11:06:11.701Z
