@@ -2,14 +2,14 @@ import argparse
 import json
 import csv
 import sys
-from lib import bitmex
-from settings import API_KEY, API_SECRET, API_BASE
-from utils import get_bitcoin_rate
+from .lib import bitmex
+from .settings import API_KEY, API_SECRET, API_BASE
+from .utils import get_bitcoin_rate
 import pandas as pd 
 from sqlalchemy import create_engine
 
 
-def fetch_endpoints(args):
+def fetch_endpoints(args, endpoint):
     # Validate Args
     fileType = args.fileType
     if fileType not in ('json', 'csv'):
@@ -40,18 +40,19 @@ def fetch_endpoints(args):
     # bitcoin_rate = get_bitcoin_rate()
 
     while True:
-        path = args.endpoint
-        print(path)
+        path = endpoint
+        print(f'[INFO] Fetching data for endpoint = {endpoint}')
         if args.isquery:
             data = connector._curl_bitmex(path=path, verb="GET", query=query, timeout=10)
         else:
             data = connector._curl_bitmex(path=path, verb="GET", timeout=10)
         
+        # print(data)
         out.extend(data)
-        # print(out)
         query['start'] += count
         if len(data) < count:
             break
+            return data
         
     if len(out) == 0:
         print('No trade history found for this account. Exiting.', file=sys.stderr)
@@ -78,6 +79,7 @@ def fetch_endpoints(args):
     elif fileType == 'json':
         for i in out:
             d = json.dumps(i, sort_keys=True, indent=4, separators=(',', ': '))
+
             # json_data = json.dumps(out)
 
             json_data = json.loads(d)
@@ -102,8 +104,7 @@ def fetch_endpoints(args):
             else:
                 json_data_dict_list.append(json_data)
         
-        # print(json_data_dict)
-        return json_data_dict_list
+        return data
 
     else:
         # Shouldn't happen

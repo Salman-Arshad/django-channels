@@ -1,33 +1,121 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello world</h1>
-    <script>
-        let loc  = window.location;
-        let wsStart = "ws://";
-        let endpoint = wsStart+loc.host+loc.pathname;
-        let socket  = new WebSocket(endpoint);
-        socket.onmessage = (e)=>{
-            console.log(e)
-        }
-        socket.onopen = (e)=>{
-            console.log(e)
-        }
+{% extends 'base.html' %}
+{% block content %}
+<div class="row">
+    <div class="col-md-3">
+        <div class="float-left mh-1000 border">
+            <!-- <ul class="list-group " >
+            <li class="list-group-item borderless">Cras justo odio</li>
+            <hr>
+            <li class="list-group-item borderless">Dapibus ac facilisis in</li>
+            <hr>
+            <li class="list-group-item borderless">Morbi leo risus</li>
+            <hr>
+            <li class="list-group-item borderless">Porta ac consectetur ac</li>
+            <hr>
+            <li class="list-group-item borderless">Vestibulum at eros</li>
+            <hr>
+          </ul> -->
+            <table class="table-hover">
+                <thead>
+                    <tr>
+                        <th>Please select category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href='/orders'>orders</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href='/position'>position</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href='/tradingHistory'>tradingHistory</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href='/user_margin'>user_margin</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href='/user_wallet '>user_wallet </a></td>
+                position
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <table id="tab" class="table table-striped table-bordered"></table>
+    </div>
+</div>
 
-        socket.onerror = (e)=>{
-            console.log(e)
+<!-- <div class="row">
+            <div class="col-md-3">
+              <div class="row ">
+                  <div class="col-md-12 medium">
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12 medium">
+                  </div>
+              </div>      
+            </div>
+            <div class="col-md-6">
+              <div class="row ">  
+                  <div class="col-md-12 large">
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="row ">
+                  <div class="col-md-12 small">
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12 small">
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12 small">
+                  </div>
+              </div>          
+            </div>  
+          </div> -->
+
+<script>
+    let loc = window.location;
+    var table = null;
+    let wsStart = "ws://";
+    let endpoint = wsStart + loc.host + loc.pathname;
+    let socket = new WebSocket(endpoint);
+    socket.onmessage = function (e) {
+        // console.log(e)
+        let message = JSON.parse(e.data);
+        processDataAndAddToTable(message.message);
+        console.count();
+    };
+    socket.onopen = (e) => {
+        console.log(e);
+    };
+
+    socket.onerror = (e) => {
+        console.log(e);
+    };
+
+    socket.onclose = (e) => {
+        console.log(e);
+    };
+    async function processDataAndAddToTable(data) {
+        if (table) table.destroy();
+
+        let keys = Object.keys(data[0]);
+        console.log(keys);
+        let cols = [];
+        for (let i = 0; i < keys.length; i++) {
+            cols.push({ data: keys[i], title: keys[i] });
         }
-
-        socket.onclose = (e)=>{
-            console.log(e)
-        }
-
-
-    </script>
-</body>
-</html>  
+        console.log(cols);
+        table = $("#tab").DataTable({
+            columns: cols,
+            data: data,
+        });
+    }
+</script>
+{% endblock %}

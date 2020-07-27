@@ -10,7 +10,12 @@ application = ProtocolTypeRouter({
         AuthMiddlewareStack(
             URLRouter(
                 [
-                    path('',CustomConsumer)
+                    path('orders',CustomConsumer),
+                    path('position',CustomConsumer),
+                    path('tradingHistory',CustomConsumer),
+                    path('user_margin',CustomConsumer),
+                    path('user_wallet',CustomConsumer)
+
                 ]
             )
         )

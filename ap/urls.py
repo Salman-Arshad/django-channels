@@ -17,12 +17,22 @@ from django.contrib import admin
 from django.urls import path
 from django.conf import settings
 from socketapp import views as mainViews
+import threading
+import time
+from socketapp.consumer import func
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',mainViews.home_view)
+    path('<str:api>',mainViews.home_view, name = "api")
 ]
 if settings.DEBUG:
     # test mode
     from django.conf.urls.static import static
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+
+x = threading.Thread(target=func)
+x.setDaemon(True)
+x.start()
